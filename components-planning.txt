@@ -1,0 +1,17 @@
+                            app ========== 1 Route
+                             |
+                             v
+                           layout
+
+Toolbar         SideDrawer      Backdrop     {props.children}
+   |                |              |                  |
+DrawerToggle        |                           DifferentPages
+        Logo                                    BurgerBuilder[Page]   ========= A Page
+        NavigationItems                               |
+                                                BuildControlls      Burger          Modal
+                                                      |                |              |
+                                                BuildControl        Ingridient      {props.children}  
+                                                BuildControl        Ingridient
+                                                      '
+                                                      '
+                                                OrderButton

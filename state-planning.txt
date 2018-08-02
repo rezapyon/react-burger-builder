@@ -1,0 +1,5 @@
+STATE for BurgerBuilder[Page] (StateFull)
+-ingredients
+    {meat:1, cheese:2 dll}
+-purchased :true
+-totalPrice:25000
